@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="renderer", content="webkit")
+    meta(http-equiv="X-UA-Conpatible", content="IE=edge,chrome=1")
+    title pdd-http-server
+  body
+    block content
+    div
+    - for(var x = 0;x < arr.length; x++)
+      div
+        a(href=arr[x]['href']) = arr[x]['name']
